@@ -36,16 +36,17 @@ menu:
     - identifier: categories
       name: categories
       url: /categories/
-      weight: 10
+      weight: 20
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
+      weight: 30
     - identifier: Archives
       name: archives
       url: /archives/
-      weight: 30
-    - identifier: rick roll
-      name: friends?
-      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      weight: 40
+    
+    - identifier: home
+      name: home
+      url: https://notbrian.me
       weight: 40
