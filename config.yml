@@ -1,0 +1,47 @@
+baseURL: ""
+languageCode: en-us
+title: brian's blog 
+theme: PaperMod
+
+params:
+  assets:
+    favicon: "static/img/favicon.ico"
+    favicon16x16:  "static/img/favicon-16x16.png"
+    favicon32x32:  "static/img/favicon-32x32.png"
+    apple_touch_icon:  "static/img/apple-touch-icon.png"
+  homeInfoParams:
+    Title: 'hello stranger'
+    Content: 'welcome to my personal blog where I talk about my coding journey and some random stuff too.  A 14yr boy coding random stuff, likes playing videos games and hate studying :)'
+  socialIcons:
+    - name: 
+      url: https://example.org/
+  cover:
+    linkFullimages: true
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: false
+
+  ShowShareButtons: false
+
+  ShowPostNavLinks: true
+
+  
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: Archives
+      name: archives
+      url: /archives/
+      weight: 30
+    - identifier: rick roll
+      name: friends?
+      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      weight: 40
