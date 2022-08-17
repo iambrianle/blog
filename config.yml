@@ -16,9 +16,9 @@ params:
     Content: 'welcome to my personal blog where I talk about my coding journey and some random stuff too.  A 14yr boy coding random stuff, likes playing videos games and hate studying :)'
   socialIcons:
     - name: facebook
-      url: https://example.org/
+      url: https://www.facebook.com/profile.php?id=100054776811026
     - name: instagram
-      url: https://example.org/
+      url: https://www.instagram.com/briandotle/
   cover:
     linkFullimages: true
 
