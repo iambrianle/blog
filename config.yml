@@ -3,6 +3,13 @@ languageCode: en-us
 title: brian's blog 
 theme: PaperMod
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+
 params:
   editPost:
         URL: "https://github.com/iambrianle/blog"
@@ -51,9 +58,16 @@ menu:
       name: archives
       url: /archives/
       weight: 40
+    - identifier: Search
+      name: search
+      url: /search/
+      weight: 10
     
-    - identifier: home
+    - identifier: aditya?
       name: home
       url: https://notbrian.me
       weight: 40
+
+
+
 

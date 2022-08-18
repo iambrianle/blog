@@ -11,8 +11,10 @@ categories: ["coding"]
 ---
 
 ## introduction
-hugo is the world’s fastest framework for building websites
-hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, hugo makes building websites fun again. hugo allows you to use or make themes which automatically style the blog page for you.
+hugo is a static-site generator that helps you generate and build static files like html, css, and javascript ahead of time. it is an opensource project built with go and boasts impressive build times that seems incomparable.
+
+## what does it do?
+It helps you convert markdown files (the files you will be writing your articles or blog posts in) to the static files that will be served later.
 
 
 ## install + coding
