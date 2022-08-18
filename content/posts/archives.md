@@ -2,5 +2,9 @@
 title: "Archives"
 layout: "archives"
 url: "/archives/"
-draft: true
+draft: false
+editPost:
+    URL: "https://github.com/iambrianle/blog"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---

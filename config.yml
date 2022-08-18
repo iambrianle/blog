@@ -4,21 +4,27 @@ title: brian's blog
 theme: PaperMod
 
 params:
-
+  editPost:
+        URL: "https://github.com/iambrianle/blog"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
   assets:
     favicon: "/favicon.ico"
     favicon16x16:  "/favicon-16x16.png"
     favicon32x32:  "/favicon-32x32.png"
     apple_touch_icon:  "/apple-touch-icon.png"
   
-  homeInfoParams:
-    Title: 'hello stranger'
-    Content: 'welcome to my personal blog where I talk about my coding journey and some random stuff too.  A 14yr boy coding random stuff, likes playing videos games and hate studying :)'
+  profileMode:
+        enabled: true
+        title: "hi stranger" 
+        subtitle: "welcome to my personal blog where I talk about my coding journey and some random stuff too.  A 14yr boy coding random stuff, likes playing videos games and hate studying :)"
   socialIcons:
     - name: facebook
       url: https://www.facebook.com/profile.php?id=100054776811026
     - name: instagram
       url: https://www.instagram.com/briandotle/
+    - name: Github
+      url: https://github.com/iambrianle
   cover:
     linkFullimages: true
 
@@ -50,3 +56,4 @@ menu:
       name: home
       url: https://notbrian.me
       weight: 40
+
