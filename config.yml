@@ -62,11 +62,10 @@ menu:
       name: search
       url: /search/
       weight: 10
-    
-    - identifier: aditya?
+    - identifier: home
       name: home
       url: https://notbrian.me
-      weight: 40
+      weight: 50
 
 
 
