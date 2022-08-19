@@ -22,7 +22,7 @@ i suggest watching [this video](https://www.youtube.com/watch?v=hjD9jTi_DQ4) fro
 
 
 ## a markdown cheat-sheet
-this is to write the content of your post
+this is the language you will write your blog with
 
 | task | markdown syntax | 
 | :---: | :--- |
