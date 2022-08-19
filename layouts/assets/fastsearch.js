@@ -48,7 +48,7 @@ window.onload = function () {
             }
         }
     };
-    xhr.open('GET', "http://notbrian.me/index.json");
+    xhr.open('GET', "https://notbrian.me/index.json");
     xhr.send();
 }
 
