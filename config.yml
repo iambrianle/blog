@@ -42,7 +42,7 @@ params:
   ShowPostNavLinks: true
 
   
-  
+
 menu:
   main:
     - identifier: categories
@@ -61,8 +61,8 @@ menu:
       name: search
       url: /search/
       weight: 10
-    - identifier: home
-      name: home
+    - identifier: about
+      name: about
       url: https://notbrian.me
       weight: 50
 
