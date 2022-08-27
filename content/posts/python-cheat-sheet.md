@@ -1,7 +1,7 @@
 ---
 title: python basics - python cheatsheet
 description: the basics of python. we all need to start somewhere, so how about doing it here. this cheat sheet is designed on the year 8 wa digital technology curriculum
-date: 2022-08-27t14:35:50+08:00
+date: 2022-08-26T14:35:50+08:00
 draft: false
 # cover:
 #     image: img/hi.jpg
@@ -314,6 +314,60 @@ random = random.randint(1,100) #generate random number between 1 and 100
 print(random)
 ```
 
+## while loop statements
+
+the while statement is used for repeated execution as long as an expression is `true`:
+
+```python
+>>> spam = 0
+>>> while spam < 5:
+...     print('brian')
+...     spam = spam + 1
+...
+# output:
+# brian
+# brian
+# brian
+# brian
+# brian
+```
+
+## break statements
+
+if the execution reaches a `break` statement, it immediately exits the `while` loop’s clause:
+
+```python
+>>> while true: #infinite loop
+...     name = input('please type your name: ')
+...     if name == 'your name':
+...         break
+...
+>>> print('thank you!')
+# please type your name: your name
+# thank you!
+```
+
+## continue statements
+
+when the program execution reaches a `continue` statement, the program execution immediately jumps back to the start of the loop.
+
+```python
+>>> while true:
+...     name = input('who are you? ')
+...     if name != 'joe':
+...         continue
+...     password = input('password? (it is a fish.): ')
+...     if password == 'swordfish':
+...         break
+...
+>>> print('access granted.')
+# who are you? charles
+# who are you? debora
+# who are you? joe
+# password? (it is a fish.): swordfish
+# access granted.
+```
+
 
 ## cool things to know
 
@@ -350,9 +404,11 @@ phrase = ['printed', 'with', 'a', 'dash', 'in', 'between']
 the keyword `sep` specify how to separate the objects, if there is more than one:
 
 ```python
-print('cats', 'dogs', 'mice', sep=',')
-# cats,dogs,mice
+print('jack', 'lilian', 'charlotte', sep=',')
+# jack,lilian,charlotte
 ```
+
+
 
 # source
 this cheat sheet is designed on the year 8 wa digital technology curriculum.
