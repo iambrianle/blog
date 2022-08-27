@@ -25,7 +25,7 @@ params:
   profileMode:
         enabled: true
         title: "hi stranger" 
-        subtitle: "welcome to my personal blog where I talk about my coding journey and some random stuff too. 14yr old coding enthusiast. currently studying web security and web devlopment "
+        subtitle: "welcome to my personal blog where I talk about my coding journey and some random stuff too. 14yr old coding enthusiast. currently studying web security and web development! "
   socialIcons:
     - name: facebook
       url: https://www.facebook.com/profile.php?id=100054776811026
