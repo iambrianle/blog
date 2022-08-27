@@ -26,6 +26,10 @@ params:
         enabled: true
         title: "hi stranger" 
         subtitle: "welcome to my personal blog where I talk about my coding journey and some random stuff too. 14yr old coding enthusiast. currently studying web security and web development! "
+        imageUrl: "/hecker.jpg" # optional
+        imageTitle: "hecker" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
   socialIcons:
     - name: facebook
       url: https://www.facebook.com/profile.php?id=100054776811026
@@ -33,7 +37,8 @@ params:
       url: https://www.instagram.com/briandotle/
     - name: Github
       url: https://github.com/iambrianle
-
+    - name: Email
+      url: mailto:iambrian@duck.com?
 
 
   ShowBreadCrumbs: true
@@ -48,15 +53,15 @@ menu:
     - identifier: categories
       name: categories
       url: /categories/
-      weight: 20
+      weight: 30
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 30
-    - identifier: Archives
-      name: archives
-      url: /archives/
       weight: 40
+    - identifier: Archives
+      name: posts
+      url: /archives/
+      weight: 20
     - identifier: Search
       name: search
       url: /search/

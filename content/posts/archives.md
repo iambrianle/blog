@@ -1,5 +1,5 @@
 ---
-title: "Archives"
+title: "all post"
 layout: "archives"
 url: "/archives/"
 draft: false
