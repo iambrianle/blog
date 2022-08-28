@@ -25,7 +25,7 @@ params:
   profileMode:
         enabled: true
         title: "hi stranger" 
-        subtitle: "welcome to my personal blog where I talk about my coding journey and some random stuff too. 14yr old coding enthusiast. currently studying web security and web development! "
+        subtitle: "welcome to my personal blog where I talk about my coding journey and some random stuff too. 14yr old coding enthusiast. currently studying web security and web development!  #4yearofcode "
         imageUrl: "/hecker.jpg" # optional
         imageTitle: "hecker" # optional
         imageWidth: 120 # custom size
