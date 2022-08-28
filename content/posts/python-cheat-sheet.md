@@ -1,22 +1,22 @@
 ---
-title: python basics - python cheatsheet
-description: the basics of python. we all need to start somewhere, so how about doing it here. this cheat sheet is designed on the year 8 wa digital technology curriculum
+title: Here is the best beginner friendly Python cheatsheet (2022)
+description: In this post, I'll show you everything you need to know to code in Python and score high on basic Python tests
 date: 2022-08-26T14:35:50+08:00
 draft: false
 # cover:
 #     image: img/hi.jpg
 #     alt: 'lol'
 #     caption: 'hi'
-tags: ["guide", "python", "blog"]
+tags: ["guide", "python"]
 categories: ["coding"]
 ShowToc: true
 author: "Brian Le"
 
 ---
 
-# python basics
+# basic python
 
-we all need to start somewhere, so how about doing it here. this cheat sheet is designed on the year 8 wa digital technology curriculum
+in this post, i'll show you everything you need to know to start coding in python and score high on basic python tests i wish i had 4 years ago. lets dive right in!
 
 ## comments
 
@@ -431,10 +431,19 @@ print('jack', 'lilian', 'charlotte', sep=',')
 
 
 
-# source
-this cheat sheet is designed on the year 8 wa digital technology curriculum.
+# conclusion
+### now i'd like to hear from you:
+- how did you think of my cheat sheet?
+- what is your favourite thing about python?
 
+comment below to let me know!
+
+## next step
+visit [my blog](https://notbrian.me/) next week where i will dive deep into python!
+## source
 summarise on the https://docs.python.org/3/tutorial/index.html python 3 tutorial
+
+
 
 ------------ brian le --------------
 

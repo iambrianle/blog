@@ -45,6 +45,7 @@ params:
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: true
+  Comments: true
 
   
 
