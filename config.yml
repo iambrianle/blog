@@ -2,6 +2,8 @@ baseURL: ""
 languageCode: en-us
 title: brian's blog 
 theme: PaperMod
+googleAnalytics: "G-WGL465XVCE"
+
 
 
 outputs:
