@@ -9,11 +9,38 @@ draft: false
 #     caption: 'hi'
 tags: ["guide", "python", "blog"]
 categories: ["coding"]
+ShowToc: true
+author: "Brian Le"
+
 ---
 
 # python basics
 
 we all need to start somewhere, so how about doing it here. this cheat sheet is designed on the year 8 wa digital technology curriculum
+
+## comments
+
+inline comment:
+
+```python
+# this is a comment
+```
+
+multiline comment:
+
+```python
+# this is a
+# multiline comment
+```
+
+code with a comment:
+
+```python
+a = 1  # initialization
+```
+
+please note the two spaces in front of the comment.
+
 
 ## math operators
 
@@ -57,20 +84,9 @@ examples of expressions:
 | ---------------------- | ----------------------------------------- |
 | integers               | `-2, -1, 0, 1, 2, 3, 4, 5`                |
 | floating-point numbers | `-1.25, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25` |
-| strings                | `'a', 'aa', 'aaa', 'hello!', '11 cats'`   |
+| strings                | `'a', 'aa', 'aaa', 'hello!', '11 cats', '123'`   |
 
-## the print() function
-
-the `print()` function writes the value of the argument(s) it is given. [...] it handles multiple arguments, floating point-number, integer, and strings. strings are printed without quotes, and a space is inserted between items, so you can format things nicely:
-
-```python
->>> print('hello world!')
-# output: hello world!
-
->>> a = 1
->>> print('hello world!', a)
-# output: hello world! 1
-```
+important: note that '123' is still a string.
 
 ## variables
 
@@ -113,28 +129,33 @@ you can name a variable anything as long as it obeys the following rules:
 >>> _spam = 'hello'
 ```
 
-## comments
+## the print() function
 
-inline comment:
-
-```python
-# this is a comment
-```
-
-multiline comment:
+1. the `print()` function writes the value of the argument(s) it is given. [...] it handles multiple arguments, floating point-number, integer, and strings. strings are printed without quotes, and a space is inserted when items are separated by a comma:
 
 ```python
-# this is a
-# multiline comment
+>>> print('hello world!')
+# output: hello world!
+
+>>> a = 1
+>>> print('hello world!', a)
+# output: hello world! 1
+
 ```
 
-code with a comment:
-
+2. concatenate items
 ```python
-a = 1  # initialization
+>>> #good
+>>> a = 'joe' 
+>>> print('hello world!' + a)
+# output: hello world!joe
+
+>>> #bad
+>>> a = 1  #integer(int)
+>>> print('hello world!' + a)  # string(str) + integer(int)
+# TypeError: can only concatenate str (not "int") to str
 ```
 
-please note the two spaces in front of the comment.
 
 ## the input() function
 
@@ -143,7 +164,7 @@ this function takes the input from the user and converts it into a string:
 ```python
 >>> print('what is your name?')   # ask for their name
 >>> my_name = input()
->>> print('hi, {}'.format(my_name))
+>>> print('hi', my_name)
 # what is your name?
 # martha
 # hi, martha
@@ -153,7 +174,7 @@ this function takes the input from the user and converts it into a string:
 
 ```python
 >>> my_name = input('what is your name? ')  # default message
->>> print('hi, {}'.format(my_name))
+>>> print('hi', my_name)
 # what is your name? martha
 # hi, martha
 ```
