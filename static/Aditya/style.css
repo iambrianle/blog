@@ -1,0 +1,54 @@
+h1{
+    color: red;
+    font-size: 100;
+    
+}
+
+main{
+    text-align: center;
+}
+
+a{
+    color: red;
+    text-decoration: dotted;
+    padding: 10px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+a:hover{
+    color: gray;
+}
+
+h3{
+    color: black;
+    font-size: 100;
+    
+}
+
+span{
+    color: red;
+    font-size: 200; 
+}
+
+span:hover{
+    color: black;
+}
+
+body{
+    background-color:  #f1bf98;
+}
+
+blink {
+    font-size: 100px;
+    font-weight: bold;
+    color: red;
+    transition: 0.5s;
+}
+
+form{
+    margin-top: 16px;
+    font-size: 20px;
+}
+
