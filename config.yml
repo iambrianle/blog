@@ -69,10 +69,6 @@ menu:
       name: search
       url: /search/
       weight: 10
-    - identifier: about
-      name: about
-      url: https://notbrian.me
-      weight: 50
 
 
 
