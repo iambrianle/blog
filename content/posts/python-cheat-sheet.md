@@ -1,7 +1,7 @@
 ---
-title: Here is the best beginner friendly Python cheatsheet (2022)
-description: In this post, I'll show you everything you need to know to code in Python and score high on basic Python tests
-date: 2022-08-26T14:35:50+08:00
+title: here is the best beginner friendly python cheatsheet (2022)
+description: in this post, i'll show you everything you need to know to code in python and score high on basic python tests
+date: 2022-08-26t14:35:50+08:00
 draft: false
 # cover:
 #     image: img/hi.jpg
@@ -9,8 +9,8 @@ draft: false
 #     caption: 'hi'
 tags: ["guide", "python"]
 categories: ["coding"]
-ShowToc: true
-author: "Brian Le"
+showtoc: true
+author: "brian le"
 
 ---
 
@@ -153,7 +153,7 @@ you can name a variable anything as long as it obeys the following rules:
 >>> #bad
 >>> a = 1  #integer(int)
 >>> print('hello world!' + a)  # string(str) + integer(int)
-# TypeError: can only concatenate str (not "int") to str
+# typeerror: can only concatenate str (not "int") to str
 ```
 
 

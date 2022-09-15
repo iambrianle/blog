@@ -1,15 +1,15 @@
 ---
-title: "How to Create a Blog using Hugo (2022)"
-date: 2022-08-17T14:35:50+08:00
+title: "how to create a blog using hugo (2022)"
+date: 2022-08-17t14:35:50+08:00
 draft: false
-description: In this post, I'll go though how to install Hugo and deploy your blog!
+description: in this post, i'll go though how to install hugo and deploy your blog!
 tags: ["guide", "hugo"]
 categories: ["coding"]
-ShowToc: true
-author: "Brian Le"
+showtoc: true
+author: "brian le"
 ---
 
-![Hugo Logo!](/hugo-logo.png)
+![hugo logo!](/hugo-logo.png)
 
 # what is hugo?
 
@@ -143,7 +143,7 @@ you can add a comments or discussion section to all of your pages (or select one
 i suggest watching [this video](https://www.youtube.com/watch?v=hjd9jti_dq4) from envato tuts+ if you're a beginners or alternatively you can read [this article](https://gohugo.io/getting-started/installing) from hugo.
 
 # conclusion
-Hugo is a perfect blog builder for tech geeks out there. if you're a beginners in coding, i suggest using wordpress to build you're blog. i'll cover wordpress in the future on [my blog](https://notbrian.me/) 
+hugo is a perfect blog builder for tech geeks out there. if you're a beginners in coding, i suggest using wordpress to build you're blog. i'll cover wordpress in the future on [my blog](https://notbrian.me/) 
 ### i'd like to hear from you 
 - how did you think of this post?
 - do you have any question? 
