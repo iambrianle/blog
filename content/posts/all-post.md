@@ -1,6 +1,6 @@
 ---
 title: "all post"
-layout: "archives"
+layout: "Archives"
 url: "/archives/"
 draft: false
 editPost:
