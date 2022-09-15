@@ -61,9 +61,6 @@ menu:
       name: tags
       url: /tags/
       weight: 40
-    - identifier: Archives
-      name: posts
-      url: /archives/
       weight: 20
     - identifier: Search
       name: search
