@@ -1,6 +1,6 @@
 ---
 title: "how to create a blog using hugo (2022)"
-date: 2022-08-17t14:35:50+08:00
+date: 2022-08-17T14:35:50+08:00
 draft: false
 description: in this post, i'll go though how to install hugo and deploy your blog!
 tags: ["guide", "hugo"]

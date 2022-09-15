@@ -61,11 +61,14 @@ menu:
       name: tags
       url: /tags/
       weight: 40
-      weight: 20
     - identifier: Search
       name: search
       url: /search/
       weight: 10
+    - identifier: Archive
+      name: posts
+      url: /archives/
+      weight: 20
 
 
 

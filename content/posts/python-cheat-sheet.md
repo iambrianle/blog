@@ -1,7 +1,7 @@
 ---
 title: here is the best beginner friendly python cheatsheet (2022)
 description: in this post, i'll show you everything you need to know to code in python and score high on basic python tests
-date: 2022-08-26t14:35:50+08:00
+date: 2022-08-26T14:35:50+08:00
 draft: false
 # cover:
 #     image: img/hi.jpg
