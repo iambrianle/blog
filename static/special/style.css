@@ -34,7 +34,7 @@ body {
   }
   .card img.birthday {
     width: 100%;
-    max-width: 25vw;
+    max-width: 20vw;
     max-height: unset;
   }
 }
@@ -45,13 +45,13 @@ body {
   }
   .card img.birthday {
     width: 100%;
-    max-width: 30vw;
+    max-width: 25vw;
     max-height: unset;
   }
 }
 
 img.birthday {
-  max-height: 20vh;
+  max-height: 15vh;
 }
 
 .text {
