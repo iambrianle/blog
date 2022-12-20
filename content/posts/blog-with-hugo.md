@@ -144,10 +144,4 @@ i suggest watching [this video](https://www.youtube.com/watch?v=hjd9jti_dq4) fro
 
 # conclusion
 hugo is a perfect blog builder for tech geeks out there. if you're a beginners in coding, i suggest using wordpress to build you're blog. i'll cover wordpress in the future on [my blog](https://notbrian.me/) 
-### i'd like to hear from you 
-- how did you think of this post?
-- do you have any question? 
-
-let me know in the comment!
-
 
