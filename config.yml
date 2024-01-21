@@ -26,17 +26,17 @@ params:
   
   profileMode:
         enabled: true
-        title: "hi stranger" 
-        subtitle: "welcome to my personal blog where I talk about my coding journey and some random stuff too. 14yr old coding enthusiast. currently studying web security and web development!  #4yearofcode "
+        title: "Hey visitor!" 
+        subtitle: "This is my website made to share my interests. I’m currently a sophomore in high school. In Australia, I’ve participated in small communities of hackathons and have the honor to compete in WACTF 2022 with my school team. Now residing in the DMV area, I’m eager to explore opportunities for learning and growth in technology."
         imageUrl: "/hecker.jpg" # optional
         imageTitle: "hecker" # optional
         imageWidth: 120 # custom size
         imageHeight: 120 # custom size
   socialIcons:
-    - name: facebook
-      url: https://www.facebook.com/profile.php?id=100054776811026
-    - name: instagram
-      url: https://www.instagram.com/briandotle/
+    # - name: facebook
+    #   url: https://www.facebook.com/profile.php?id=100054776811026
+    # - name: instagram
+    #   url: https://www.instagram.com/briandotle/
     - name: Github
       url: https://github.com/iambrianle
     - name: Email
@@ -54,19 +54,19 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: Catergories
       url: /categories/
       weight: 30
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 40
     - identifier: Search
-      name: search
+      name: Search
       url: /search/
       weight: 10
     - identifier: Archive
-      name: posts
+      name: Posts
       url: /archives/
       weight: 20
 
