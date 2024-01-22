@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on brian.exe</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on brian.exe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Aug 2022 14:35:50 +0800</lastBuildDate>
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>here is the best beginner friendly python cheatsheet (2022)</title>
+      <link>/posts/python-cheat-sheet/</link>
+      <pubDate>Fri, 26 Aug 2022 14:35:50 +0800</pubDate>
+      <guid>/posts/python-cheat-sheet/</guid>
+      <description>in this post, i&amp;#39;ll show you everything you need to know to code in python and score high on basic python tests</description>
+    </item>
+    <item>
+      <title>how to create a blog using hugo (2022)</title>
+      <link>/posts/blog-with-hugo/</link>
+      <pubDate>Wed, 17 Aug 2022 14:35:50 +0800</pubDate>
+      <guid>/posts/blog-with-hugo/</guid>
+      <description>in this post, i&amp;#39;ll go though how to install hugo and deploy your blog!</description>
+    </item>
+    <item>
+      <title>Test123</title>
+      <link>/posts/blog-with-hugo-copy/</link>
+      <pubDate>Wed, 17 Aug 2022 14:35:50 +0800</pubDate>
+      <guid>/posts/blog-with-hugo-copy/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

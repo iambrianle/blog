@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>how to create a blog using hugo (2022) | brian.exe</title>
+<meta name="keywords" content="guide, hugo">
+<meta name="description" content="in this post, i&#39;ll go though how to install hugo and deploy your blog!">
+<meta name="author" content="brian le">
+<link rel="canonical" href="/posts/blog-with-hugo/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WGL465XVCE"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-WGL465XVCE', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="how to create a blog using hugo (2022)" />
+<meta property="og:description" content="in this post, i&#39;ll go though how to install hugo and deploy your blog!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/blog-with-hugo/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-08-17T14:35:50+08:00" />
+<meta property="article:modified_time" content="2022-08-17T14:35:50+08:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="how to create a blog using hugo (2022)"/>
+<meta name="twitter:description" content="in this post, i&#39;ll go though how to install hugo and deploy your blog!"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/posts/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "how to create a blog using hugo (2022)",
+      "item": "/posts/blog-with-hugo/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "how to create a blog using hugo (2022)",
+  "name": "how to create a blog using hugo (2022)",
+  "description": "in this post, i'll go though how to install hugo and deploy your blog!",
+  "keywords": [
+    "guide", "hugo"
+  ],
+  "articleBody": " what’s hugo? hugo is a static site generator that enables you to create static files like html, css, and javascript in advance. it is a go-based open-source project that promises remarkable build times that are unmatched.\nwhat does it do? it aids in the converting of markdown files—the formats in which you will write your articles or blog posts—to static files that will be served afterwards.\nhow is it different? this is distinct from more conventional approaches like a wordpress site, which requires a dedicated database and a web server to reply to queries, communicate with the database, and serve the files on each request. since nothing is dynamic and we know the material won’t change, it is much slower than utilising a static-site generator like hugo. http web servers are very effective and quick in serving only static material. users request files, and the server only needs to provide them. there isn’t any additional processing applied.\nthe benefits your website may be set up and hosted anywhere (on gcp cloud storage, aws s3, netlfify, firebase, etc.), and it can be deployed to a cdn (content delivery network) to be cached on a global edge network, which will greatly enhance the performance and speed of page loads. this is crucial for seo and for those with slow internet connections (search engine optimization).\ncaveats that does not, however, imply that hugo cannot be utilised in a dynamic manner. you might not be able to use hugo if your use case is highly complex or involves user input. it could be preferable to use a standard website or single-page application built with react, angular, vue, or svelte. hugo, however, contains all the capabilities you want if all you want is a straightforward blog with a few extras, like the ability for people to leave comments.\nget started the hugo documentation is very helpful and elaborate. it is the first place to check in case of references or issues.\ninstallation hugo is available in all platforms (windows, macos, and linux), as a binary that you can install, or via a package manager. if you have a compatible package manager, that is the recommended way as it is the easiest and has the least amount of work to maintain\ninstall using the binaries availabe from their github releases page. (choose the appropriate platform and type of file). make sure to install it in a location that is somewhere in your path. usr/local/bin is the best place for linux. otherwise, append the location to your path variable.\ninstall using a package manager on windows\nchoco install hugo -confirm or\nscoop install hugo on linux and macos (using homebrew)\nbrew install hugo to verify that the installation occurred successfully, run the following command.\nhugo version there should not be any errors.\ncreating the site change directories into the location you want to create your project. then run the following command with your project’s name. this will create folder that contains all the files that you need to get started.\n# creates a new site and project called 'firstblog' hugo new site firstblog change directories into the project directory that was created.\ncd firstblog you will notice a similar folder structure. the config.toml file is where all the variables and settings for your projects live. you will be able to setup and configure most of your website from that one file.\n. ├── archetypes ├── config.toml ├── content ├── data ├── layouts ├── static └── themes if you want to change the file type for your configurations, you can change it to yaml or json depending on your preference. you can copy and paste the contents of the file using a tool like convertsimple to convert the format and syntax.\nall of the actual content that you write as markdown files lives inside the content directory. you can organize the content in folders, and subfolders, and hugo will automatically take care of organizing the posts as categories or subcategories.\nuse the following command to create a blank markdown file. you can specify where you want to store this file. if the file name alone is provided, then it is directly placed in the content directory.\nhugo create first-post.md or try the following to place it in content/posts:\nhugo create posts/first-post.md front matter every markdown file that is created and used for your website has a section on the top that is unique to hugo. it starts and ends with ---. the syntax used in this is toml by default. you can change this default setting with the following command:\n# to convert to yml hugo convert toyaml in the front matter, you can set options for the specific page, meta data, and other configuration that is specific to this particular page. check out the documentation of front matter to learn the different options available.\ninstall a theme one of the powers of hugo is to utilize one of the many themes created by the community. check out the complete list and choose one of the themes. install the theme after reading the documentation. this procedure is pretty simple. the majority of the time, you will need to manually or automatically download the code and place it in the themes folder before moving it into the folder with the name of the theme you selected.\nthen make sure to go to the config file and update the theme variable with the name of the theme you have chosen.\nrunning the site hugo comes with a built-in web server that enables local viewing of the website, continuously checks your files for updates, and restarts itself when necessary.\nhugo server -d deployment hugo creates your website using the following command, outputting the finished static content by default to the public directory. if necessary, that can be changed in the config file. whatever hosting service you decide to utilise, the contents of this file must be deployed.\nhugo -d bonus content comments you can add a comments or discussion section to all of your pages (or select ones) easily using disqus. instructions and setup is very straightforward and simple.\nstuck? i suggest watching this video from envato tuts+ if you’re a beginners or alternatively you can read this article from hugo.\nconclusion hugo is a perfect blog builder for tech geeks out there. if you’re a beginners in coding, i suggest using wordpress to build you’re blog. i’ll cover wordpress in the future on my blog\n",
+  "wordCount" : "1075",
+  "inLanguage": "en",
+  "datePublished": "2022-08-17T14:35:50+08:00",
+  "dateModified": "2022-08-17T14:35:50+08:00",
+  "author":{
+    "@type": "Person",
+    "name": "brian le"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/posts/blog-with-hugo/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "brian.exe",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="" accesskey="h" title="brian.exe (Alt + H)">brian.exe</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="/archives/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="/categories/" title="Catergories">
+                    <span>Catergories</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="">Home</a>&nbsp;»&nbsp;<a href="/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      how to create a blog using hugo (2022)
+    </h1>
+    <div class="post-description">
+      in this post, i&#39;ll go though how to install hugo and deploy your blog!
+    </div>
+    <div class="post-meta"><span title='2022-08-17 14:35:50 +0800 +0800'>August 17, 2022</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;brian le&nbsp;|&nbsp;<a href="https://github.com/iambrianle/blog/posts/blog-with-hugo.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#whats-hugo" aria-label="what&rsquo;s hugo?">what&rsquo;s hugo?</a></li>
+                <li>
+                    <a href="#what-does-it-do" aria-label="what does it do?">what does it do?</a></li>
+                <li>
+                    <a href="#how-is-it-different" aria-label="how is it different?">how is it different?</a></li>
+                <li>
+                    <a href="#the-benefits" aria-label="the benefits">the benefits</a></li>
+                <li>
+                    <a href="#caveats" aria-label="caveats">caveats</a></li>
+                <li>
+                    <a href="#get-started" aria-label="get started">get started</a><ul>
+                        
+                <li>
+                    <a href="#installation" aria-label="installation">installation</a><ul>
+                        
+                <li>
+                    <a href="#install-using-the-binaries" aria-label="install using the binaries">install using the binaries</a></li>
+                <li>
+                    <a href="#install-using-a-package-manager" aria-label="install using a package manager">install using a package manager</a></li></ul>
+                </li>
+                <li>
+                    <a href="#creating-the-site" aria-label="creating the site">creating the site</a><ul>
+                        
+                <li>
+                    <a href="#front-matter" aria-label="front matter">front matter</a></li>
+                <li>
+                    <a href="#install-a-theme" aria-label="install a theme">install a theme</a></li>
+                <li>
+                    <a href="#running-the-site" aria-label="running the site">running the site</a></li></ul>
+                </li>
+                <li>
+                    <a href="#deployment" aria-label="deployment">deployment</a></li></ul>
+                </li>
+                <li>
+                    <a href="#bonus-content" aria-label="bonus content">bonus content</a><ul>
+                        
+                <li>
+                    <a href="#comments" aria-label="comments">comments</a></li></ul>
+                </li>
+                <li>
+                    <a href="#stuck" aria-label="stuck?">stuck?</a></li>
+                <li>
+                    <a href="#conclusion" aria-label="conclusion">conclusion</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p><img loading="lazy" src="/hugo-logo.png" alt="hugo logo!"  />
+</p>
+<h1 id="whats-hugo">what&rsquo;s hugo?<a hidden class="anchor" aria-hidden="true" href="#whats-hugo">#</a></h1>
+<p>hugo is a static site generator that enables you to create static files like html, css, and javascript in advance. it is a go-based open-source project that promises remarkable build times that are unmatched.</p>
+<h1 id="what-does-it-do">what does it do?<a hidden class="anchor" aria-hidden="true" href="#what-does-it-do">#</a></h1>
+<p>it aids in the converting of markdown files—the formats in which you will write your articles or blog posts—to static files that will be served afterwards.</p>
+<h1 id="how-is-it-different">how is it different?<a hidden class="anchor" aria-hidden="true" href="#how-is-it-different">#</a></h1>
+<p>this is distinct from more conventional approaches like a wordpress site, which requires a dedicated database and a web server to reply to queries, communicate with the database, and serve the files on each request. since nothing is dynamic and we know the material won&rsquo;t change, it is much slower than utilising a static-site generator like hugo. http web servers are very effective and quick in serving only static material. users request files, and the server only needs to provide them. there isn&rsquo;t any additional processing applied.</p>
+<h1 id="the-benefits">the benefits<a hidden class="anchor" aria-hidden="true" href="#the-benefits">#</a></h1>
+<p>your website may be set up and hosted anywhere (on gcp cloud storage, aws s3, netlfify, firebase, etc.), and it can be deployed to a cdn (content delivery network) to be cached on a global edge network, which will greatly enhance the performance and speed of page loads. this is crucial for seo and for those with slow internet connections (search engine optimization).</p>
+<h1 id="caveats">caveats<a hidden class="anchor" aria-hidden="true" href="#caveats">#</a></h1>
+<p>that does not, however, imply that hugo cannot be utilised in a dynamic manner. you might not be able to use hugo if your use case is highly complex or involves user input. it could be preferable to use a standard website or single-page application built with react, angular, vue, or svelte. hugo, however, contains all the capabilities you want if all you want is a straightforward blog with a few extras, like the ability for people to leave comments.</p>
+<h1 id="get-started">get started<a hidden class="anchor" aria-hidden="true" href="#get-started">#</a></h1>
+<p>the <a href="https://gohugo.io/documentation/">hugo documentation</a> is very helpful and elaborate. it is the first place to check in case of references or issues.</p>
+<h2 id="installation">installation<a hidden class="anchor" aria-hidden="true" href="#installation">#</a></h2>
+<p>hugo is available in all platforms (windows, macos, and linux), as a binary that you can install, or via a package manager. if you have a compatible package manager, that is the recommended way as it is the easiest and has the least amount of work to maintain</p>
+<h3 id="install-using-the-binaries">install using the binaries<a hidden class="anchor" aria-hidden="true" href="#install-using-the-binaries">#</a></h3>
+<p>availabe from their github <a href="https://github.com/gohugoio/hugo/releases">releases</a> page. (choose the appropriate platform and type of file). make sure to install it in a location that is somewhere in your <code>path</code>. <code>usr/local/bin</code> is the best place for linux. otherwise, append the location to your <code>path</code> variable.</p>
+<h3 id="install-using-a-package-manager">install using a package manager<a hidden class="anchor" aria-hidden="true" href="#install-using-a-package-manager">#</a></h3>
+<p><strong>on windows</strong></p>
+<pre><code>choco install hugo -confirm
+</code></pre>
+<p>or</p>
+<pre><code>scoop install hugo
+</code></pre>
+<hr>
+<p><strong>on linux and macos</strong> (using homebrew)</p>
+<pre><code>brew install hugo
+</code></pre>
+<hr>
+<p>to verify that the installation occurred successfully, run the following command.</p>
+<pre><code>hugo version
+</code></pre>
+<p>there should not be any errors.</p>
+<h2 id="creating-the-site">creating the site<a hidden class="anchor" aria-hidden="true" href="#creating-the-site">#</a></h2>
+<p>change directories into the location you want to create your project. then run the following command with your project&rsquo;s name. this will create folder that contains all the files that you need to get started.</p>
+<pre><code># creates a new site and project called 'firstblog'
+hugo new site firstblog
+</code></pre>
+<p>change directories into the project directory that was created.</p>
+<pre><code>cd firstblog
+</code></pre>
+<p>you will notice a similar folder structure. the <code>config.toml</code> file is where all the variables and settings for your projects live. you will be able to setup and configure most of your website from that one file.</p>
+<pre><code>.
+├── archetypes
+├── config.toml
+├── content
+├── data
+├── layouts
+├── static
+└── themes
+</code></pre>
+<p>if you want to change the file type for your configurations, you can change it to yaml or json depending on your preference. you can copy and paste the contents of the file using a tool like <a href="https://www.convertsimple.com/convert-toml-to-yaml/">convertsimple</a> to convert the format and syntax.</p>
+<p>all of the actual content that you write as markdown files lives inside the <code>content</code> directory. you can organize the content in folders, and subfolders, and hugo will automatically take care of organizing the posts as categories or subcategories.</p>
+<p>use the following command to create a blank markdown file. you can specify where you want to store this file. if the file name alone is provided, then it is directly placed in the <code>content</code> directory.</p>
+<pre><code>hugo create first-post.md
+</code></pre>
+<p>or try the following to place it in <code>content/posts</code>:</p>
+<pre><code>hugo create posts/first-post.md
+</code></pre>
+<hr>
+<h3 id="front-matter">front matter<a hidden class="anchor" aria-hidden="true" href="#front-matter">#</a></h3>
+<p>every markdown file that is created and used for your website has a section on the top that is unique to hugo. it starts and ends with <code>---</code>. the syntax used in this is <code>toml</code> by default. you can change this default setting with the following command:</p>
+<pre><code># to convert to yml
+hugo convert toyaml
+</code></pre>
+<p>in the front matter, you can set options for the specific page, meta data, and other configuration that is specific to this particular page. check out the documentation of <a href="https://gohugo.io/content-management/front-matter/">front matter</a> to learn the different options available.</p>
+<h3 id="install-a-theme">install a theme<a hidden class="anchor" aria-hidden="true" href="#install-a-theme">#</a></h3>
+<p>one of the powers of hugo is to utilize one of the many themes created by the community. check out the <a href="https://themes.gohugo.io/">complete list</a> and choose one of the themes. install the theme after reading the documentation. this procedure is pretty simple. the majority of the time, you will need to manually or automatically download the code and place it in the <code>themes</code> folder before moving it into the folder with the name of the theme you selected.</p>
+<p>then make sure to go to the <code>config</code> file and update the theme variable with the name of the theme you have chosen.</p>
+<h3 id="running-the-site">running the site<a hidden class="anchor" aria-hidden="true" href="#running-the-site">#</a></h3>
+<p>hugo comes with a built-in web server that enables local viewing of the website, continuously checks your files for updates, and restarts itself when necessary.</p>
+<pre><code>hugo server -d
+</code></pre>
+<h2 id="deployment">deployment<a hidden class="anchor" aria-hidden="true" href="#deployment">#</a></h2>
+<p>hugo creates your website using the following command, outputting the finished static content by default to the <code>public</code> directory. if necessary, that can be changed in the <code>config</code> file. whatever hosting service you decide to utilise, the contents of this file must be deployed.</p>
+<pre><code>hugo -d
+</code></pre>
+<h1 id="bonus-content">bonus content<a hidden class="anchor" aria-hidden="true" href="#bonus-content">#</a></h1>
+<h2 id="comments">comments<a hidden class="anchor" aria-hidden="true" href="#comments">#</a></h2>
+<p>you can add a comments or discussion section to all of your pages (or select ones) easily using <a href="https://disqus.com/">disqus</a>. instructions and setup is very straightforward and simple.</p>
+<h1 id="stuck">stuck?<a hidden class="anchor" aria-hidden="true" href="#stuck">#</a></h1>
+<p>i suggest watching <a href="https://www.youtube.com/watch?v=hjd9jti_dq4">this video</a> from envato tuts+ if you&rsquo;re a beginners or alternatively you can read <a href="https://gohugo.io/getting-started/installing">this article</a> from hugo.</p>
+<h1 id="conclusion">conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h1>
+<p>hugo is a perfect blog builder for tech geeks out there. if you&rsquo;re a beginners in coding, i suggest using wordpress to build you&rsquo;re blog. i&rsquo;ll cover wordpress in the future on <a href="https://notbrian.me/">my blog</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/guide/">guide</a></li>
+      <li><a href="/tags/hugo/">hugo</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="/posts/python-cheat-sheet/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>here is the best beginner friendly python cheatsheet (2022)</span>
+  </a>
+  <a class="next" href="/posts/blog-with-hugo-copy/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Test123</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="">brian.exe</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

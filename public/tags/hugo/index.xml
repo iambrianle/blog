@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on brian.exe</title>
+    <link>/tags/hugo/</link>
+    <description>Recent content in hugo on brian.exe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Aug 2022 14:35:50 +0800</lastBuildDate>
+    <atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>how to create a blog using hugo (2022)</title>
+      <link>/posts/blog-with-hugo/</link>
+      <pubDate>Wed, 17 Aug 2022 14:35:50 +0800</pubDate>
+      <guid>/posts/blog-with-hugo/</guid>
+      <description>in this post, i&amp;#39;ll go though how to install hugo and deploy your blog!</description>
+    </item>
+    <item>
+      <title>Test123</title>
+      <link>/posts/blog-with-hugo-copy/</link>
+      <pubDate>Wed, 17 Aug 2022 14:35:50 +0800</pubDate>
+      <guid>/posts/blog-with-hugo-copy/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
