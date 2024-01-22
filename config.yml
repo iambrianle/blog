@@ -33,10 +33,6 @@ params:
         imageWidth: 120 # custom size
         imageHeight: 120 # custom size
   socialIcons:
-    # - name: facebook
-    #   url: https://www.facebook.com/profile.php?id=100054776811026
-    # - name: instagram
-    #   url: https://www.instagram.com/briandotle/
     - name: Github
       url: https://github.com/iambrianle
     - name: Email
