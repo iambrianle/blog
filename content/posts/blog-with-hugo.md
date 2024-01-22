@@ -11,7 +11,7 @@ author: "brian le"
 
 ![hugo logo!](/hugo-logo.png)
 
-# what is hugo?
+# what's hugo?
 
 hugo is a static site generator that enables you to create static files like html, css, and javascript in advance. it is a go-based open-source project that promises remarkable build times that are unmatched.
 
