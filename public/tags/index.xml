@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on brian.exe</title>
-    <link>https://notbrian.me/tags/</link>
+    <link>http://localhost:50340/tags/</link>
     <description>Recent content in Tags on brian.exe</description>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Sep 2022 14:50:50 +0800</lastBuildDate>
-    <atom:link href="https://notbrian.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50340/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guide</title>
-      <link>https://notbrian.me/tags/guide/</link>
+      <link>http://localhost:50340/tags/guide/</link>
       <pubDate>Thu, 29 Sep 2022 14:50:50 +0800</pubDate>
-      <guid>https://notbrian.me/tags/guide/</guid>
+      <guid>http://localhost:50340/tags/guide/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://notbrian.me/tags/python/</link>
+      <link>http://localhost:50340/tags/python/</link>
       <pubDate>Thu, 29 Sep 2022 14:50:50 +0800</pubDate>
-      <guid>https://notbrian.me/tags/python/</guid>
+      <guid>http://localhost:50340/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://notbrian.me/tags/hugo/</link>
+      <link>http://localhost:50340/tags/hugo/</link>
       <pubDate>Wed, 17 Aug 2022 14:35:50 +0800</pubDate>
-      <guid>https://notbrian.me/tags/hugo/</guid>
+      <guid>http://localhost:50340/tags/hugo/</guid>
       <description></description>
     </item>
   </channel>

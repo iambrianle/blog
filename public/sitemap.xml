@@ -2,41 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://notbrian.me/</loc>
+    <loc>http://localhost:50340/</loc>
     <lastmod>2022-09-29T14:50:50+08:00</lastmod>
   </url><url>
-    <loc>https://notbrian.me/categories/</loc>
+    <loc>http://localhost:50340/categories/</loc>
     <lastmod>2022-09-29T14:50:50+08:00</lastmod>
   </url><url>
-    <loc>https://notbrian.me/categories/coding/</loc>
+    <loc>http://localhost:50340/categories/coding/</loc>
     <lastmod>2022-09-29T14:50:50+08:00</lastmod>
   </url><url>
-    <loc>https://notbrian.me/tags/guide/</loc>
+    <loc>http://localhost:50340/tags/guide/</loc>
     <lastmod>2022-09-29T14:50:50+08:00</lastmod>
   </url><url>
-    <loc>https://notbrian.me/posts/html-cheat-sheet/</loc>
+    <loc>http://localhost:50340/posts/html-cheat-sheet/</loc>
     <lastmod>2022-09-29T14:50:50+08:00</lastmod>
   </url><url>
-    <loc>https://notbrian.me/posts/</loc>
+    <loc>http://localhost:50340/posts/</loc>
     <lastmod>2022-09-29T14:50:50+08:00</lastmod>
   </url><url>
-    <loc>https://notbrian.me/tags/python/</loc>
+    <loc>http://localhost:50340/tags/python/</loc>
     <lastmod>2022-09-29T14:50:50+08:00</lastmod>
   </url><url>
-    <loc>https://notbrian.me/tags/</loc>
+    <loc>http://localhost:50340/tags/</loc>
     <lastmod>2022-09-29T14:50:50+08:00</lastmod>
   </url><url>
-    <loc>https://notbrian.me/posts/python-cheat-sheet/</loc>
+    <loc>http://localhost:50340/posts/python-cheat-sheet/</loc>
     <lastmod>2022-08-26T14:35:50+08:00</lastmod>
   </url><url>
-    <loc>https://notbrian.me/posts/blog-with-hugo/</loc>
+    <loc>http://localhost:50340/posts/blog-with-hugo/</loc>
     <lastmod>2022-08-17T14:35:50+08:00</lastmod>
   </url><url>
-    <loc>https://notbrian.me/tags/hugo/</loc>
+    <loc>http://localhost:50340/tags/hugo/</loc>
     <lastmod>2022-08-17T14:35:50+08:00</lastmod>
   </url><url>
-    <loc>https://notbrian.me/archives/</loc>
+    <loc>http://localhost:50340/archives/</loc>
   </url><url>
-    <loc>https://notbrian.me/search/</loc>
+    <loc>http://localhost:50340/search/</loc>
   </url>
 </urlset>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hugo on brian.exe</title>
-    <link>https://notbrian.me/tags/hugo/</link>
+    <link>http://localhost:50340/tags/hugo/</link>
     <description>Recent content in Hugo on brian.exe</description>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Aug 2022 14:35:50 +0800</lastBuildDate>
-    <atom:link href="https://notbrian.me/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50340/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Create a Blog Using Hugo (2022)</title>
-      <link>https://notbrian.me/posts/blog-with-hugo/</link>
+      <link>http://localhost:50340/posts/blog-with-hugo/</link>
       <pubDate>Wed, 17 Aug 2022 14:35:50 +0800</pubDate>
-      <guid>https://notbrian.me/posts/blog-with-hugo/</guid>
+      <guid>http://localhost:50340/posts/blog-with-hugo/</guid>
       <description>In this post, I&amp;#39;ll go through how to install Hugo and deploy your blog!</description>
     </item>
   </channel>
