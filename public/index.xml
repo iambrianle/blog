@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>brian.exe</title>
-    <link>http://localhost:50340/</link>
+    <link>https://notbrian.me/</link>
     <description>Recent content on brian.exe</description>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Sep 2022 14:50:50 +0800</lastBuildDate>
-    <atom:link href="http://localhost:50340/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://notbrian.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Here is the Best Beginner-Friendly HTML Cheatsheet</title>
-      <link>http://localhost:50340/posts/html-cheat-sheet/</link>
+      <link>https://notbrian.me/posts/html-cheat-sheet/</link>
       <pubDate>Thu, 29 Sep 2022 14:50:50 +0800</pubDate>
-      <guid>http://localhost:50340/posts/html-cheat-sheet/</guid>
+      <guid>https://notbrian.me/posts/html-cheat-sheet/</guid>
       <description>In this post, I&amp;#39;ll show you everything you need to know to code in Python and score high on basic Python tests.</description>
     </item>
     <item>
       <title>Here is the Best Beginner-Friendly Python Cheatsheet (2022)</title>
-      <link>http://localhost:50340/posts/python-cheat-sheet/</link>
+      <link>https://notbrian.me/posts/python-cheat-sheet/</link>
       <pubDate>Fri, 26 Aug 2022 14:35:50 +0800</pubDate>
-      <guid>http://localhost:50340/posts/python-cheat-sheet/</guid>
+      <guid>https://notbrian.me/posts/python-cheat-sheet/</guid>
       <description>In this post, I&amp;#39;ll show you everything you need to know to code in Python and score high on basic Python tests.</description>
     </item>
     <item>
       <title>How to Create a Blog Using Hugo (2022)</title>
-      <link>http://localhost:50340/posts/blog-with-hugo/</link>
+      <link>https://notbrian.me/posts/blog-with-hugo/</link>
       <pubDate>Wed, 17 Aug 2022 14:35:50 +0800</pubDate>
-      <guid>http://localhost:50340/posts/blog-with-hugo/</guid>
+      <guid>https://notbrian.me/posts/blog-with-hugo/</guid>
       <description>In this post, I&amp;#39;ll go through how to install Hugo and deploy your blog!</description>
     </item>
   </channel>
