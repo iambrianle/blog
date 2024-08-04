@@ -1,57 +1,62 @@
 ---
-Title: Here is the Best Beginner-Friendly Python Cheatsheet (2022)
-Description: In this post, I'll show you everything you need to know to code in Python and score high on basic Python tests.
-Date: 2022-08-26T14:35:50+08:00
-Draft: false
-Tags: ["guide", "python"]
-Categories: ["coding"]
-Showtoc: true
-Author: "Brian Le"
+title: here is the best beginner friendly python cheatsheet (2022)
+description: in this post, i'll show you everything you need to know to code in python and score high on basic python tests
+date: 2022-08-26T14:35:50+08:00
+draft: false
+# cover:
+#     image: img/hi.jpg
+#     alt: 'lol'
+#     caption: 'hi'
+tags: ["guide", "python"]
+categories: ["coding"]
+showtoc: true
+author: "brian le"
 
 ---
 
-# Basic Python
+# basic python
 
-In this post, I'll show you everything you need to know to start coding in Python and score high on basic Python tests I wish I had 4 years ago. Let's dive right in!
+in this post, i'll show you everything you need to know to start coding in python and score high on basic python tests i wish i had 4 years ago. lets dive right in!
 
-## Comments
+## comments
 
-Inline comment:
+inline comment:
 
 ```python
-# This is a comment
+# this is a comment
 ```
 
-Multiline comment:
+multiline comment:
 
 ```python
-# This is a
+# this is a
 # multiline comment
 ```
 
-Code with a comment:
+code with a comment:
 
 ```python
-a = 1  # Initialization
+a = 1  # initialization
 ```
 
-Please note the two spaces in front of the comment.
+please note the two spaces in front of the comment.
 
-## Math Operators
 
-From **highest** to **lowest** precedence:
+## math operators
 
-| Operators | Operation         | Example         |
+from **highest** to **lowest** precedence:
+
+| operators | operation         | example         |
 | --------- | ----------------- | --------------- |
-| \*\*      | Exponent          | `2 ** 3 = 8`    |
-| %         | Modulus/Remainder | `22 % 8 = 6`    |
-| //        | Integer Division  | `22 // 8 = 2`   |
-| /         | Division          | `22 / 8 = 2.75` |
-| \*        | Multiplication    | `3 * 3 = 9`     |
-| -         | Subtraction       | `5 - 2 = 3`     |
-| +         | Addition          | `2 + 2 = 4`     |
+| \*\*      | exponent          | `2 ** 3 = 8`    |
+| %         | modulus/remainder | `22 % 8 = 6`    |
+| //        | integer division  | `22 // 8 = 2`   |
+| /         | division          | `22 / 8 = 2.75` |
+| \*        | multiplication    | `3 * 3 = 9`     |
+| -         | subtraction       | `5 - 2 = 3`     |
+| +         | addition          | `2 + 2 = 4`     |
 
-Examples of expressions:
+examples of expressions:
 
 ```python
 >>> 2 + 3 * 6
@@ -73,110 +78,110 @@ Examples of expressions:
 # 16.0
 ```
 
-## Data Types
+## data types
 
-| Data Type              | Examples                                  |
+| data type              | examples                                  |
 | ---------------------- | ----------------------------------------- |
-| Integers               | `-2, -1, 0, 1, 2, 3, 4, 5`                |
-| Floating-Point Numbers | `-1.25, -1.0, -0.5, 0.0, 0.5, 1.0, 1.25` |
-| Strings                | `'a', 'aa', 'aaa', 'hello!', '11 cats', '123'`   |
+| integers               | `-2, -1, 0, 1, 2, 3, 4, 5`                |
+| floating-point numbers | `-1.25, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25` |
+| strings                | `'a', 'aa', 'aaa', 'hello!', '11 cats', '123'`   |
 
-Important: Note that '123' is still a string.
+important: note that '123' is still a string.
 
-## Variables
+## variables
 
-You can name a variable anything as long as it obeys the following rules:
+you can name a variable anything as long as it obeys the following rules:
 
-1. It can be only one word.
+1. it can be only one word.
 
 ```python
->>> # Bad
->>> my_variable = 'hello'
+>>> # bad
+>>> my variable = 'hello'
 
->>> # Good
+>>> # good
 >>> var = 'hello'
 ```
 
-2. It can use only letters, numbers, and the underscore (`_`) character.
+2. it can use only letters, numbers, and the underscore (`_`) character.
 
 ```python
->>> # Bad
+>>> # bad
 >>> %$@variable = 'hello'
 
->>> # Good
+>>> # good
 >>> my_var = 'hello'
 
->>> # Good
+>>> # good
 >>> my_var_2 = 'hello'
 ```
 
-3. It can't begin with a number.
+3. it can’t begin with a number.
 
 ```python
->>> # This won't work
+>>> # this wont work
 >>> 23_var = 'hello'
 ```
 
-4. Variable names starting with an underscore (`_`) are considered as "unuseful".
+4. variable name starting with an underscore (`_`) are considered as "unuseful".
 
 ```python
 >>> # _spam should not be used again in the code
 >>> _spam = 'hello'
 ```
 
-## The `print()` Function
+## the print() function
 
-1. The `print()` function writes the value of the argument(s) it is given. It handles multiple arguments, floating-point numbers, integers, and strings. Strings are printed without quotes, and a space is inserted when items are separated by a comma:
+1. the `print()` function writes the value of the argument(s) it is given. [...] it handles multiple arguments, floating point-number, integer, and strings. strings are printed without quotes, and a space is inserted when items are separated by a comma:
 
 ```python
 >>> print('hello world!')
-# Output: hello world!
+# output: hello world!
 
 >>> a = 1
 >>> print('hello world!', a)
-# Output: hello world! 1
+# output: hello world! 1
 
 ```
 
-2. Concatenate items
+2. concatenate items
 ```python
->>> # Good
+>>> #good
 >>> a = 'joe' 
 >>> print('hello world!' + a)
-# Output: hello world!joe
+# output: hello world!joe
 
->>> # Bad
->>> a = 1  # Integer(int)
->>> print('hello world!' + a)  # String(str) + Integer(int)
-# TypeError: can only concatenate str (not "int") to str
+>>> #bad
+>>> a = 1  #integer(int)
+>>> print('hello world!' + a)  # string(str) + integer(int)
+# typeerror: can only concatenate str (not "int") to str
 ```
 
 
-## The `input()` Function
+## the input() function
 
-This function takes the input from the user and converts it into a string:
+this function takes the input from the user and converts it into a string:
 
 ```python
->>> print('What is your name?')   # Ask for their name
+>>> print('what is your name?')   # ask for their name
 >>> my_name = input()
->>> print('Hi', my_name)
-# What is your name?
-# Martha
-# Hi, Martha
+>>> print('hi', my_name)
+# what is your name?
+# martha
+# hi, martha
 ```
 
 `input()` can also set a default message without using `print()`:
 
 ```python
->>> my_name = input('What is your name? ')  # Default message
->>> print('Hi', my_name)
-# What is your name? Martha
-# Hi, Martha
+>>> my_name = input('what is your name? ')  # default message
+>>> print('hi', my_name)
+# what is your name? martha
+# hi, martha
 ```
 
-## The `str()`, `int()`, and `float()` Functions
+## the str(), int(), and float() functions
 
-These functions allow you to change the type of a variable. For example, you can transform an `integer` or `float` to a `string`:
+these functions allow you to change the type of variable. for example, you can transform from an `integer` or `float` to a `string`:
 
 ```python
 >>> str(29) # str
@@ -186,256 +191,259 @@ These functions allow you to change the type of a variable. For example, you can
 # '-3.14'
 ```
 
-Or from a `string` to an `integer` or `float`:
+or from a `string` to an `integer` or `float`:
 
 ```python
->>> int('11') # Integer
+>>> int('11') # integer
 # 11
 
->>> float('3.14') # Decimal
+>>> float('3.14') # decimal
 # 3.14
 ```
 
-## Conditions
+## conditions
 
-To do this in Python, you use the `if`, `else`, and `elif` keywords. These two keywords are called conditionals.
+to do this in python, you use the `if`, `else` and `elif` keywords. these two keywords are called conditionals.
 
-1. Use the `if` keyword in Python
+1. use the `if` keyword in python
 
 ```python
->>> if condition:
-...     Indented block of decision to make if condition is true
+>>> if(condition):
+        indented block of decision to make if condition is true
 
->>> # Example
->>> team_brian = 99
->>> team_jack = 59
->>> if team_brian > team_jack:
-...     print("Team Brian won the league") # Output: Team Brian won the league
+>>> # example
+>>> teambrian = 99
+>>> teamjack = 59
+>>> if(teambrian > teamjack):
+        print("team brian won the league") # output: team brian won the league
 ```
 
-Important: If the condition in the `if` statement is not met, nothing happens.
+important: if the condition in the `if`statement is not met, nothing happens.
 
 ```python
->>> team_brian = 59
->>> team_jack = 99
->>> if team_brian > team_jack:
-...     print("Team Brian won the league")
-        # Output: Nothing will output because if statement is not met
+>>> teambrian = 59
+>>> teamjack = 99
+>>> if(teambrian > teamjack):
+        print("team brian won the league")
+        # output: nothing will output because if statement is not met
 ```
 
-2. Use the `else` keyword in Python.
+2. use the `else` keyword in python.
 
-Since nothing happens if the condition in an if statement is not met, you can catch that with an `else` statement.
+since nothing happens `if` the condition in an if statement is not met, you can catch that with an `else` statement.
 
 ```python
->>> if condition:
-...     Indented block of decision to make if condition is true
-... else:
-...     Indented block of decision to make if condition is not true
+>>> if(condition):
+        indented block of decision to make if condition is true
+    else:
+        indented block of decision to make if condition is not true
 
 
->>> # Example
->>> team_brian = 59
->>> team_jack = 99
->>> if team_brian > team_jack:
-...     print("Team Brian won the league")
-... else:
-...     print("Team Jack won the league")
-        # Output: Team Jack won the league
+>>> # example
+>>> teambrian = 59
+>>> teamjack = 99
+>>> if(teambrian > teamjack):
+        print("team brian won the league")
+    else:
+        print("team jack won the league")
+        # output: team jack won the league
 ```
 
-3. Use the `elif` keyword in Python
+3. use the `elif` keyword in python
 
-Another conditional keyword in Python is `elif`, which you can put in between an `if` and `else`. `elif` is more specific than `else`.
+another conditional keyword in python is `elif`, which you can put in between an `if` and `else`. `elif` is more specific then else
 
 ```python
->>> # Example
->>> team_brian = 59
->>> team_jack = 89
->>> team_lilian = 99
->>> if team_brian > team_jack:
-...     print("Team Brian won the league")
-... elif team_lilian > team_brian:
-...     print("Team Lilian won the league")
-... else:
-...     print("Team Jack won the league")
-        # Output: Team Lilian won the league
+>>> # example
+>>> teambrian = 59
+>>> teamjack = 89
+>>> teamlilian = 99
+>>> if(teambrian > teamjack):
+        print("team brian won the league")
+    elif(teamlilian > teambrian):
+        print("team lilian won the league")
+    else:
+        print("team jack won the league")
+        # output: team lilian won the league
 ```
 
-## Import
+## import
 
-Basically, `import` allows you to use pre-written code of someone else who already wrote the code and is willing to share it.
+basically, `import` allows you to use pre-written code of someone else who already wrote the code and willing to share it.
 
 
-This code would have to be written if the random module was not used
+this code would have to be written if the random module was not used
 
 ```python
-# This code doesn't work as it is only a small portion of the random module 
+# this code don't work as it is only a small portion of the random module 
 
 def randrange(self, start, stop=none, step=_one):
-    """Choose a random item from range(stop) or range(start, stop[, step]).
-    Roughly equivalent to `choice(range(start, stop, step))` but
+    """choose a random item from range(stop) or range(start, stop[, step]).
+    roughly equivalent to ``choice(range(start, stop, step))`` but
     supports arbitrarily large ranges and is optimized for common cases.
     """
 
-    # This code is a bit messy to make it fast for the
-    # Common case while still doing adequate error checking.
+    # this code is a bit messy to make it fast for the
+    # common case while still doing adequate error checking.
     istart = _index(start)
     if stop is none:
-        # We don't check for "step != 1" because it hasn't been
-        # Type checked and converted to an integer yet.
+        # we don't check for "step != 1" because it hasn't been
+        # type checked and converted to an integer yet.
         if step is not _one:
-            raise TypeError("Missing a non-None stop argument")
+            raise typeerror("missing a non-none stop argument")
         if istart > 0:
             return self._randbelow(istart)
-        raise ValueError("Empty range for randrange()")
+        raise valueerror("empty range for randrange()")
 
-    # Stop argument supplied.
+    # stop argument supplied.
     istop = _index(stop)
     width = istop - istart
     istep = _index(step)
-    # Fast path.
+    # fast path.
     if istep == 1:
         if width > 0:
             return istart + self._randbelow(width)
-        raise ValueError(f"Empty range in randrange({start}, {stop})")
+        raise valueerror(f"empty rangein randrange({start}, {stop})")
 
-        # Non-unit step argument supplied.
+        # non-unit step argument supplied.
         if istep > 0:
             n = (width + istep - 1) // istep
         elif istep < 0:
             n = (width + istep + 1) // istep
         else:
-            raise ValueError("Zero step for randrange()")
+            raise valueerror("zero step for randrange()")
         if n <= 0:
-            raise ValueError(f"Empty range in randrange({start}, {stop}, {step})")
+            raise valueerror(f"empty range in randrange({start}, {stop}, {step})")
         return istart + istep * self._randbelow(n)
 
 
 def randint(self, a, b):
-        """Return random integer in range [a, b], including both end points.
+        """return random integer in range [a, b], including both end points.
         """
 
         return self.randrange(a, b+1)
 
-random = random.randint(1,100) # Generate random number between 1 and 100
+random = random.randint(1,100) #generate random number between 1 and 100
 print(random)
 
 ```
 
-But if the random module was used, it will be much easier and more efficient to write your code.
+but if the random module was used, it will be much easier and more efficient to write your code.
 ```python
 import random
-random = random.randint(1,100) # Generate random number between 1 and 100
+random = random.randint(1,100) #generate random number between 1 and 100
 print(random)
 ```
 
-## While Loop Statements
+## while loop statements
 
-The while statement is used for repeated execution as long as an expression is `True`:
+the while statement is used for repeated execution as long as an expression is `true`:
 
 ```python
 >>> spam = 0
 >>> while spam < 5:
-...     print('Brian')
+...     print('brian')
 ...     spam = spam + 1
 ...
-# Output:
-# Brian
-# Brian
-# Brian
-# Brian
-# Brian
+# output:
+# brian
+# brian
+# brian
+# brian
+# brian
 ```
 
-## Break Statements
+## break statements
 
-If the execution reaches a `break` statement, it immediately exits the `while` loop’s clause:
+if the execution reaches a `break` statement, it immediately exits the `while` loop’s clause:
 
 ```python
->>> while True: # Infinite loop
-...     name = input('Please type your name: ')
+>>> while true: #infinite loop
+...     name = input('please type your name: ')
 ...     if name == 'your name':
 ...         break
 ...
->>> print('Thank you!')
-# Please type your name: your name
-# Thank you!
+>>> print('thank you!')
+# please type your name: your name
+# thank you!
 ```
 
-## Continue Statements
+## continue statements
 
-When the program execution reaches a `continue` statement, the program execution immediately jumps back to the start of the loop.
+when the program execution reaches a `continue` statement, the program execution immediately jumps back to the start of the loop.
 
 ```python
->>> while True:
-...     name = input('Who are you? ')
-...     if name != 'Joe':
+>>> while true:
+...     name = input('who are you? ')
+...     if name != 'joe':
 ...         continue
-...     password = input('Password? (It is a fish.): ')
+...     password = input('password? (it is a fish.): ')
 ...     if password == 'swordfish':
 ...         break
 ...
->>> print('Access granted.')
-# Who are you? Charles
-# Who are you? Debora
-# Who are you? Joe
-# Password? (It is a fish.): swordfish
-# Access granted.
+>>> print('access granted.')
+# who are you? charles
+# who are you? debora
+# who are you? joe
+# password? (it is a fish.): swordfish
+# access granted.
 ```
 
 
-## Cool Things to Know
+## cool things to know
 
-### Concatenation and Replication
+### concatenation and replication
 
-String concatenation:
+string concatenation:
 
 ```python
->>> 'Alice' 'Bob'
-# 'AliceBob'
+>>> 'alice' 'bob'
+# 'alicebob'
 ```
 
-String replication:
+string replication:
 
 ```python
->>> 'Alice' * 5
-# 'AliceAliceAliceAliceAlice'
+>>> 'alice' * 5
+# 'alicealicealicealicealice'
 ```
 
-### The `end` Keyword
+### the end keyword
 
-The keyword argument `end` can be used to avoid the newline after the output or end the output with a different string:
+the keyword argument `end` can be used to avoid the newline after the output, or end the output with a different string:
 
 ```python
-phrase = ['Printed', 'with', 'a', 'dash', 'in', 'between']
+phrase = ['printed', 'with', 'a', 'dash', 'in', 'between']
 >>> for word in phrase:
 ...     print(word, end='-')
 ...
-# Printed-with-a-dash-in-between-
+# printed-with-a-dash-in-between-
 ```
 
-### The `sep` Keyword
+### the sep keyword
 
-The keyword `sep` specifies how to separate the objects if there is more than one:
+the keyword `sep` specify how to separate the objects, if there is more than one:
 
 ```python
-print('Jack', 'Lilian', 'Charlotte', sep=',')
-# Jack,Lilian,Charlotte
+print('jack', 'lilian', 'charlotte', sep=',')
+# jack,lilian,charlotte
 ```
 
 
 
-# Conclusion
+# conclusion
+### now i'd like to hear from you:
+- how did you think of my cheat sheet?
+- what is your favourite thing about python?
 
-### Now I'd Like to Hear From You:
-- How did you think of my cheat sheet?
-- What is your favorite thing about Python?
+comment below to let me know!
 
-Comment below to let me know!
+## next step
+visit [my blog](https://notbrian.me/) next week where i will dive deep into python!
+## source
+summarise on the https://docs.python.org/3/tutorial/index.html python 3 tutorial
 
-## Next Step
-Visit [my blog](https://notbrian.me/) next week where I will dive deep into Python!
 
-## Source
-Summarized from the [Python 3 tutorial](https://docs.python.org/3/tutorial/index.html).
+
+------------ brian le --------------
+
