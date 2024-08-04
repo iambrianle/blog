@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://notbrian.me/sitemap.xml

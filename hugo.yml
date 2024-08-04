@@ -1,6 +1,6 @@
-baseURL: ""
+baseURL: "https://notbrian.me/"
 languageCode: en-us
-title: brian.exe
+title: "brian.exe"
 theme: PaperMod
 googleAnalytics: "G-WGL465XVCE"
 
@@ -11,9 +11,12 @@ outputs:
     - HTML
     - RSS
     - JSON # is necessary
+    - SITEMAP
 
 
 params:
+  title: "brian.exe"
+  description: "A personal website dedicated to making high quality article about technology"
   editPost:
         URL: "https://github.com/iambrianle/blog"
         Text: "Suggest Changes" # edit text
@@ -44,6 +47,16 @@ params:
   ShowShareButtons: false
   ShowPostNavLinks: true
   Comments: false
+
+  sitemap:
+  changefreq: weekly
+  priority: 0.5
+  filename: sitemap.xml
+
+
+  
+  # Enable robots.txt
+  enableRobotsTXT: true
 
   
 

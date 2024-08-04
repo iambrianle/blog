@@ -25,7 +25,7 @@ This is distinct from more conventional approaches like a WordPress site, which 
 
 # The Benefits
 
-Your website may be set up and hosted anywhere (on GCP Cloud Storage, AWS S3, Netlify, Firebase, etc.), and it can be deployed to a CDN (Content Delivery Network) to be cached on a global edge network, which will greatly enhance the performance and speed of page loads. This is crucial for SEO and for those with slow internet connections (Search Engine Optimization).
+Your website may be set up and hosted anywhere (on GCP Cloud Storage, AWS S3, PaperMod, Firebase, etc.), and it can be deployed to a CDN (Content Delivery Network) to be cached on a global edge network, which will greatly enhance the performance and speed of page loads. This is crucial for SEO and for those with slow internet connections (Search Engine Optimization).
 
 # Caveats
 

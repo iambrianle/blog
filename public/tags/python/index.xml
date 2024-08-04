@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>python on brian.exe</title>
-    <link>/tags/python/</link>
-    <description>Recent content in python on brian.exe</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Python on brian.exe</title>
+    <link>http://localhost:50340/tags/python/</link>
+    <description>Recent content in Python on brian.exe</description>
+    <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Aug 2022 14:35:50 +0800</lastBuildDate>
-    <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Sep 2022 14:50:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:50340/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>here is the best beginner friendly python cheatsheet (2022)</title>
-      <link>/posts/python-cheat-sheet/</link>
+      <title>Here is the Best Beginner-Friendly HTML Cheatsheet</title>
+      <link>http://localhost:50340/posts/html-cheat-sheet/</link>
+      <pubDate>Thu, 29 Sep 2022 14:50:50 +0800</pubDate>
+      <guid>http://localhost:50340/posts/html-cheat-sheet/</guid>
+      <description>In this post, I&amp;#39;ll show you everything you need to know to code in Python and score high on basic Python tests.</description>
+    </item>
+    <item>
+      <title>Here is the Best Beginner-Friendly Python Cheatsheet (2022)</title>
+      <link>http://localhost:50340/posts/python-cheat-sheet/</link>
       <pubDate>Fri, 26 Aug 2022 14:35:50 +0800</pubDate>
-      <guid>/posts/python-cheat-sheet/</guid>
-      <description>in this post, i&amp;#39;ll show you everything you need to know to code in python and score high on basic python tests</description>
+      <guid>http://localhost:50340/posts/python-cheat-sheet/</guid>
+      <description>In this post, I&amp;#39;ll show you everything you need to know to code in Python and score high on basic Python tests.</description>
     </item>
   </channel>
 </rss>
